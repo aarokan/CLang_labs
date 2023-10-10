@@ -1,0 +1,10 @@
+After we Includeed CS50 library. Put export LDLIBS="-lcs50" in your ~/.zshenv file. libcs50 is 
+installed just fine. Make just 
+doesn't include the link command by default.
+
+make filename
+Does not work but this does:
+
+clang filename.c -o filename -lcs50
+
+source: https://www.reddit.com/r/cs50/comments/wogk07/m1_mac_support/

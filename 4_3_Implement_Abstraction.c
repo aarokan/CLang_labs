@@ -1,21 +1,18 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// Get size of grid
 int get_size(void);
-
-// Print grid of bricks
 void print_grid(int);
 
 int main(void)
 {
-print_grid(get_size());
+    int n = get_size();
+    print_grid(n);
 }
 
 int get_size()
 {
     int n;
-    
     do
     {
         n = get_int("Size: ");

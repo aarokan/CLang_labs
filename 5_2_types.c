@@ -22,6 +22,7 @@ int main(void)
     double doubleLimit = 9876543210.123456789012345;
 
     // long, integers with more bits, so they can count higher than an int
+    long myLong = -21556;
     // string, a string of characters
 
     printf("%d\n", isCLangFun);
@@ -31,6 +32,7 @@ int main(void)
     printf("%c\n", myLetter);
     printf("%lf\n", pi);
     printf("%lf\n", doubleLimit);
+    printf("%li\n", myLong);
 }
 
 // %c   %f   %i   %li   %s

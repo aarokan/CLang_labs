@@ -25,14 +25,14 @@ int main(void)
     long myLong = -21556;
     // string, a string of characters
 
-    printf("%d\n", isCLangFun);
-    printf("%i\n", myNum);
-    printf("%f\n", myFloatNum);
-    printf("%f\n", floatPiLimit);
-    printf("%c\n", myLetter);
-    printf("%lf\n", pi);
-    printf("%lf\n", doubleLimit);
-    printf("%li\n", myLong);
+    printf("isCLangFun = %d\n", isCLangFun);
+    printf("myNum = %i\n", myNum);
+    printf("myFloatNum = %f\n", myFloatNum);
+    printf("floatPiLimit = %f\n", floatPiLimit);
+    printf("myLetter = %c\n", myLetter);
+    printf("pi = %lf\n", pi);
+    printf("doubleLimit = %lf\n", doubleLimit);
+    printf("myLong = %li\n", myLong);
 }
 
 // %c   %f   %i   %li   %s

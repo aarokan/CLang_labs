@@ -25,9 +25,8 @@ int main(void)
     long myLong = -21556;
 
     // string, a string of characters
-    string cs50String ="string using CS50 Lib";
-
-
+    string cs50String = "string using CS50 Lib";
+    char cArrayOfChar[] = "string using C array of char";
 
     printf("isCLangFun = %d\n", isCLangFun);
     printf("myNum = %i\n", myNum);
@@ -38,6 +37,7 @@ int main(void)
     printf("doubleLimit = %lf\n", doubleLimit);
     printf("myLong = %li\n", myLong);
     printf("cs50Strong = %s\n", cs50String);
+    printf("cArrayOfChar = %s\n", cArrayOfChar);
 }
 
 // %c   %f   %i   %li   %s

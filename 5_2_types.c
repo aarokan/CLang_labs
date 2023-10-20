@@ -23,7 +23,11 @@ int main(void)
 
     // long, integers with more bits, so they can count higher than an int
     long myLong = -21556;
+
     // string, a string of characters
+    string cs50String ="string using CS50 Lib";
+
+
 
     printf("isCLangFun = %d\n", isCLangFun);
     printf("myNum = %i\n", myNum);
@@ -33,6 +37,7 @@ int main(void)
     printf("pi = %lf\n", pi);
     printf("doubleLimit = %lf\n", doubleLimit);
     printf("myLong = %li\n", myLong);
+    printf("cs50Strong = %s\n", cs50String);
 }
 
 // %c   %f   %i   %li   %s
